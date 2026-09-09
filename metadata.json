@@ -1,0 +1,6 @@
+{
+  "name": "Lumière Beauty",
+  "description": "Premium cosmetic e-commerce store demo with PWA capabilities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
