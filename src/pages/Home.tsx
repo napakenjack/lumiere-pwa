@@ -9,8 +9,8 @@ export function Home() {
 
   const categories = [
     { name: 'Уход за лицом', image: 'https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&w=400&q=80' },
-    { name: 'Макияж', image: 'https://images.unsplash.com/photo-1596462502278-27bf85033e5a?auto=format&fit=crop&w=400&q=80' },
-    { name: 'Уход за телом', image: 'https://images.unsplash.com/photo-1608223653131-4137df7572ba?auto=format&fit=crop&w=400&q=80' },
+    { name: 'Макияж', image: 'https://images.unsplash.com/photo-1580870069867-74c57ee1bb07?q=80&w=735&auto=format&fit=crop' },
+    { name: 'Уход за телом', image: 'https://plus.unsplash.com/premium_photo-1679046948909-ab47e96082e7?q=80&w=687&auto=format&fit=crop' },
     { name: 'Парфюмерия', image: 'https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=400&q=80' }
   ];
 
@@ -23,7 +23,7 @@ export function Home() {
       {/* Hero Carousel Banner */}
       <section className="relative w-full h-[350px] md:h-[450px] mt-4 rounded-3xl overflow-hidden bg-secondary">
         <img 
-          src="https://images.unsplash.com/photo-1615397323755-e4fb3c5b8b64?auto=format&fit=crop&w=1600&q=80" 
+          src="https://images.unsplash.com/photo-1583209814683-c023dd293cc6?q=80&w=1470&auto=format&fit=crop" 
           alt="Hero" 
           className="absolute inset-0 w-full h-full object-cover object-center opacity-80"
         />
