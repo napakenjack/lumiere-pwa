@@ -68,10 +68,7 @@ export function MainLayout() {
       {/* Header (Mobile) */}
       <header className="sticky top-0 z-40 w-full bg-white/80 backdrop-blur-md border-b border-gray-100 md:hidden">
         <div className="px-4 flex justify-between items-center h-16">
-          <button className="text-gray-900">
-            <Menu className="w-6 h-6" />
-          </button>
-          <Link to="/" className="font-serif text-xl font-bold tracking-tight">Lumière</Link>
+          <Link to="/" className="font-serif text-2xl font-bold tracking-tight">Lumière</Link>
           <button onClick={() => navigate('/catalog')} className="text-gray-900">
             <Search className="w-6 h-6" />
           </button>
@@ -79,7 +76,7 @@ export function MainLayout() {
       </header>
 
       {/* Main Content */}
-      <main className="flex-1 w-full max-w-7xl mx-auto md:px-4 sm:px-6 lg:px-8">
+      <main className="flex-1 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-4">
         <Outlet />
       </main>
 

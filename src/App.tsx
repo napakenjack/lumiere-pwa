@@ -3,6 +3,7 @@ import { MainLayout } from './layouts/MainLayout';
 import { AdminLayout } from './layouts/AdminLayout';
 import { Home, Catalog, ProductDetails, Cart, Checkout, OrderSuccess, Favorites, Login, Profile } from './pages';
 
+// Export Trigger
 import { AdminDashboard } from './pages/admin/AdminDashboard';
 import { AdminProducts } from './pages/admin/AdminProducts';
 import { AdminOrders } from './pages/admin/AdminOrders';

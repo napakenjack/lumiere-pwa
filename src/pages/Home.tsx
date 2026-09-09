@@ -21,7 +21,7 @@ export function Home() {
   return (
     <div className="flex flex-col gap-16 md:gap-24 pb-20">
       {/* Hero Carousel Banner */}
-      <section className="relative w-full h-[350px] md:h-[450px] mt-4 rounded-3xl overflow-hidden bg-secondary">
+      <section className="relative w-full h-[350px] md:h-[450px] rounded-3xl overflow-hidden bg-secondary">
         <img 
           src="https://images.unsplash.com/photo-1583209814683-c023dd293cc6?q=80&w=1470&auto=format&fit=crop" 
           alt="Hero" 

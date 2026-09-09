@@ -1,0 +1,12 @@
+#!/bin/bash
+sed -i "s|photo-1608223653131-4137df7572ba|photo-1522337660859-02fbefca4702|1" src/data/mockData.ts # 6
+sed -i "s|images: \['https://images.unsplash.com/photo-1615397323755-e4fb3c5b8b64?auto=format&fit=crop&w=800&q=80'\], // reused for visual|images: \['https://images.unsplash.com/photo-1571781256007-de3285c99e26?auto=format&fit=crop&w=800&q=80'\],|" src/data/mockData.ts # 15
+sed -i "s|images: \['https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&w=800&q=80'\], // reused|images: \['https://images.unsplash.com/photo-1551401344-96695b273412?auto=format&fit=crop&w=800&q=80'\],|" src/data/mockData.ts # 16
+sed -i "s|images: \['https://images.unsplash.com/photo-1626783405786-fb4c910cf94e?auto=format&fit=crop&w=800&q=80'\], // reused|images: \['https://images.unsplash.com/photo-1611077544342-9908da79d047?auto=format&fit=crop&w=800&q=80'\],|" src/data/mockData.ts # 17
+sed -i "s|images: \['https://images.unsplash.com/photo-1608223653131-4137df7572ba?auto=format&fit=crop&w=800&q=80'\], // reused|images: \['https://images.unsplash.com/photo-1629198688000-71f23e745b6e?auto=format&fit=crop&w=800&q=80'\],|" src/data/mockData.ts # 18
+
+sed -i "s|images: \['https://images.unsplash.com/photo-1615397323755-e4fb3c5b8b64?auto=format&fit=crop&w=800&q=80'\], // reused|images: \['https://images.unsplash.com/photo-1608223653131-4137df7572ba?auto=format&fit=crop&w=800&q=80'\],|" src/data/mockData.ts # 20
+sed -i "s|images: \['https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=800&q=80'\], // reused|images: \['https://images.unsplash.com/photo-1570172619644-defd882d2fb4?auto=format&fit=crop&w=800&q=80'\],|" src/data/mockData.ts # 21
+sed -i "s|images: \['https://images.unsplash.com/photo-1608223653131-4137df7572ba?auto=format&fit=crop&w=800&q=80'\], // reused|images: \['https://images.unsplash.com/photo-1556228720-1c251e18686b?auto=format&fit=crop&w=800&q=80'\],|" src/data/mockData.ts # 22
+sed -i "s|images: \['https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&w=800&q=80'\], // reused|images: \['https://images.unsplash.com/photo-1573575154488-f98a2571b1e4?auto=format&fit=crop&w=800&q=80'\],|" src/data/mockData.ts # 23
+sed -i "s|images: \['https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=800&q=80'\], // reused|images: \['https://images.unsplash.com/photo-1515377800735-a312cea410e3?auto=format&fit=crop&w=800&q=80'\],|" src/data/mockData.ts # 24
